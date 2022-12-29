@@ -34,7 +34,7 @@ jobs:
       uses: anchore/sbom-action@bb716408e75840bbb01e839347cd213767269d4a
       with:
  #       image: "localbuild/testimage:latest"
-        path: ./build/
+        path: "."
  #       artifact-name: image.cyclonedx.json
         format: cyclonedx-json
         dependency-snapshot: true
