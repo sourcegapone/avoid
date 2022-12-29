@@ -1,4 +1,5 @@
 # GAP example Repo with Actions 
+### All GitHub Actions are required Activate to run and Test.
 
 ##  Anchore Syft SBOM scan [Action]
 1. BOM from docker container image.
