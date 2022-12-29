@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "graceful-fs": "^4.2.10"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.5",
+    "create-probot-app": "^5.0.10",
+    "npm": "^7.24.2"
+  }
+}
