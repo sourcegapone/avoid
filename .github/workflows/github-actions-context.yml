@@ -5,12 +5,11 @@ on:
     branches: [ "main" ]
 
 permissions:
-  contents: write
-
+  contents: read
 
 jobs:
   one:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
       - name: Dump GitHub context
         env:
